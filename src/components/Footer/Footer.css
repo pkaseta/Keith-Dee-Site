@@ -1,0 +1,35 @@
+.social-icons {
+  margin: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.footerdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerSticky {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: blueviolet;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+  .footerdiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerSticky {
+    height: 18%;
+    justify-content: center;
+    align-items: center;
+  }
+}
